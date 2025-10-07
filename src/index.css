@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 240 5% 96%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -15,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 208 100% 37%;
+    --primary: 262 83% 58%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
@@ -36,14 +36,14 @@
 
     --radius: 0.5rem;
 
-    --trello-blue: 208 100% 37%;
-    --trello-bg: 203 89% 53%;
-    --done-green: 142 55% 49%;
-    --urgent-red: 7 81% 59%;
-    --progress-yellow: 45 100% 47%;
-    --todo-green: 152 69% 92%;
-    --doing-yellow: 45 100% 86%;
-    --done-gray: 210 17% 93%;
+    --primary-purple: 262 83% 58%;
+    --accent-blue: 221 83% 53%;
+    --soft-green: 142 71% 45%;
+    --warm-orange: 25 95% 53%;
+    --neutral-bg: 240 5% 96%;
+    --column-todo: 262 83% 58%;
+    --column-doing: 25 95% 53%;
+    --column-done: 142 71% 45%;
 
     --sidebar-background: 222 47% 11%;
     --sidebar-foreground: 0 0% 100%;
