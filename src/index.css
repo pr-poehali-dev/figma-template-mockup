@@ -37,9 +37,13 @@
     --radius: 0.5rem;
 
     --trello-blue: 208 100% 37%;
+    --trello-bg: 203 89% 53%;
     --done-green: 142 55% 49%;
     --urgent-red: 7 81% 59%;
     --progress-yellow: 45 100% 47%;
+    --todo-green: 152 69% 92%;
+    --doing-yellow: 45 100% 86%;
+    --done-gray: 210 17% 93%;
 
     --sidebar-background: 222 47% 11%;
     --sidebar-foreground: 0 0% 100%;
@@ -108,10 +112,10 @@
 
 @layer components {
   .kanban-column {
-    @apply min-w-[300px] bg-secondary/30 rounded-lg p-3;
+    @apply min-w-[280px] rounded-xl p-2;
   }
 
   .task-card {
-    @apply bg-card rounded-lg p-3 shadow-sm hover:shadow-md transition-all cursor-pointer;
+    @apply bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-all cursor-pointer mb-2;
   }
 }
